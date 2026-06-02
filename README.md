@@ -35,6 +35,16 @@ sample-apex-skills/
 
 ## Quick Start
 
+### NPX Installer (recommended)
+
+> **Prerequisites:** [Node.js 18+](https://nodejs.org/) and [git](https://git-scm.com/) must be installed.
+
+```bash
+npx apex-skills
+```
+
+Detects Claude Code and/or Kiro CLI, clones the repo, and symlinks all skills + steering into the right locations. Run `npx apex-skills --update` to pull the latest.
+
 ### Option A: Just the Skills
 
 Use the skills with any agent that supports the [Agent Skills standard](https://agentskills.io/). Skills are self-contained — clone and point your tool at them.
